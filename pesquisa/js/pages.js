@@ -183,17 +183,16 @@ const pages = {
   <video
     id="tutorial-video"
     controls
-    preload="metadata"
-    poster="https://mundoprimeiroglobal.shop/pronto/pesquisa/vsl/vsl-tiktok.mp4"
+    preload="auto"
     playsinline
   >
-    <source src="https://mundoprimeiroglobal.shop/pronto/pesquisa/vsl/vsl-tiktok.mp4" type="video/mp4">
+    <source src="video/vsl.mp4" type="video/mp4">
     Seu navegador não suporta a reprodução de vídeo.
   </video>
 </div>
 
   
-  <button class="unlock-btn"">
+  <button class="unlock-btn">
     DESBLOQUEAR AGORA
   </button>
 </div>
@@ -264,7 +263,7 @@ function setupRegistrationPage() {
 // Setup event listeners for video page
 function setupVideoPage() {
   document.querySelector('.unlock-btn').addEventListener('click', () => {
-    window.location.href = 'https://compraseguraonline.org.ua/c/85de67cb29';
+    window.location.href = 'https://go.tribopay.com.br/nr7trikfnt';
   });
 
 }
